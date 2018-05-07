@@ -1,0 +1,42 @@
+5)
+======
+=========
+1)
+==========
+diffrent method to call a function
+=================================
+
+f <- function(abcdef, bcde1, bcde2) {
+  list(a = abcdef, b1 = bcde1, b2 = bcde2)
+}
+str(f(1, 2, 3))
+
+## List of 3
+##  $ a : num 1
+##  $ b1: num 2
+##  $ b2: num 3
+
+Calling a function given a list of arguments:
+============================================
+mean(1:10, na.rm = TRUE)
+
+## [1] 5.5
+
+Default and missing arguments:
+=============================
+f <- function(a = 1, b = 2) {
+  c(a, b)
+}
+f()
+
+## [1] 1 2
+
+2)============>True
+
+3
+========
+1============>False
+2)===========>False
+3)===========>false
+4)============>True
+
